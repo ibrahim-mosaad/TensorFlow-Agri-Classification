@@ -1,4 +1,3 @@
-'''
 #  Satellite Imagery Classification: Agricultural vs Non-Agricultural
 
 ##  Project Overview
@@ -43,6 +42,8 @@ Training quality and reliability are evaluated using:
 Designed for **scalability, experimentation, and deployment**:
 
 Satellite-Land-Classification/
+
+'''
 │
 ├── data/                     # Dataset storage (ignored in Git)
 ├── models/                   # Saved models
@@ -62,7 +63,27 @@ Satellite-Land-Classification/
 │   └── training_accuracy_loss.png
 │
 ├── requirements.txt          # Project dependencies
+└── README.md                 # Project documentation│
+├── data/                     # Dataset storage (ignored in Git)
+├── models/                   # Saved models
+│   └── best_agriculture_model.keras
+│
+├── notebooks/                # Jupyter notebooks
+│   └── satellite-classification-training.ipynb
+│
+├── scripts/                  # Modular Python scripts
+│   ├── data_loader.py        # Asynchronous download & preprocessing
+│   ├── train.py              # CNN model & training pipeline
+│   └── predict.py            # Inference on new images
+│
+├── samples/                  # Dataset & performance visualizations
+│   ├── data_set.png
+│   ├── confusion_matrix.png
+│   └── training_accuracy_loss.png
+│
+├── requirements.txt          # Project dependencies
 └── README.md                 # Project documentation
+'''
 
 ##  Key Technical Features
 
@@ -106,5 +127,6 @@ Ibrahim Mosaad
 GitHub: @ibrahim-mosaad
 
 AI Engineer | Computer Vision Enthusiast
-'''
+
+
 
